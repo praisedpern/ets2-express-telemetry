@@ -1,0 +1,28 @@
+{
+  "name": "ets2-express-telemetry",
+  "version": "0.0.1",
+  "description": "Euro Truck Simulator 2/American Truck Simulator telemetry REST API",
+  "main": "listen.js",
+  "scripts": {
+    "test": "jest",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/praisedpern/ets2-express-telemetry.git"
+  },
+  "author": "James Jinks",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/praisedpern/ets2-express-telemetry/issues"
+  },
+  "homepage": "https://github.com/praisedpern/ets2-express-telemetry#readme",
+  "devDependencies": {
+    "husky": "^7.0.4",
+    "jest": "^27.3.1",
+    "supertest": "^6.1.6"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
